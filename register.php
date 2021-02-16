@@ -35,32 +35,18 @@
 	<title></title>
 </head>
 <body>
-
-	<div class="login-page">
+<div class="login-page">
   <div class="form">
-   
-<form method="post" action="" name="signup-form">
-<div class="form-element">
-
-<input type="text" name="username" placeholder="Usuário" pattern="[a-zA-Z0-9]+" required />
+    <form method="post" action="" name="signup-form">
+    <input type="text" name="username" placeholder="Usuário" pattern="[a-zA-Z0-9]+" required />
+    <input type="email" placeholder="Email" name="email" required /> 
+    <input type="password" placeholder="Senha "name="password" required />
+    <button type="submit" name="register" value="register">Cadastrar</button>
+    <p class="message">Já sou registrado. <a href="login.php"> Login </a></p>
+    </form>
+   </div>
 </div>
-<div class="form-element">
-
-<input type="email" placeholder="Email" name="email" required />
-</div>
-<div class="form-element">
-
-<input type="password" placeholder="Senha "name="password" required />
-</div>
-<button type="submit" name="register" value="register">Cadastrar</button>
-  <p class="message">Já sou registrado. <a href="login.php"> Login
-      </a></p>
-</form>
-
-
-
-    </div>
-    </div>
 </body>
 </html>
+
 
