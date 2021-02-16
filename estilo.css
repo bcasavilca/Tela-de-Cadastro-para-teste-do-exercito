@@ -9,11 +9,16 @@ html,body{
   overflow-y: hidden;
   overflow-x: hidden; 
 }
+
 p{
- font-size: 20px;
- color: yellow;
+      font-size: 20px;
+      color: yellow;
 }
-.login-page {   
+
+
+.login-page {
+
+    
   width: 360px;
   padding: 8% 0 0;
   margin: auto;
@@ -104,6 +109,8 @@ p{
 .container .info span .fa {
   color: #EF3B3A;
 }
+
+
 
 
 
