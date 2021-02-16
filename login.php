@@ -35,7 +35,7 @@
         <input type="password"  name="password" placeholder="Senha"required />
         <button type="submit" name="login" value="login">Entrar</button>
         <p class="message">Não é registrado? <a href="register.php">Cadastre-se</a></p>
-        <p class="message"> <a href="login.php">Recuperar usuário ou senha.
+       
         </form>
     </div>
 </div>
