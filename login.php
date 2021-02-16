@@ -29,28 +29,16 @@
 </head>
 <body>
 <div class="login-page">
-  <div class="form">
-   
-    
-<form method="post" action="inicio.php" name="signup-form">
-<div class="form-element">
-
-<input type="text" name="username" placeholder="Usuário" pattern="[a-zA-Z0-9]+" required />
-</div>
-<div class="form-element">
-
-<input type="password"  name="password" placeholder="Senha"required />
-</div>
-
-<button type="submit" name="login" value="login">Entrar</button>
-  <p class="message">Não é registrado? <a href="register.php">Cadastre-se</a></p>
- <p class="message"> <a href="login.php">Recuperar usuário ou senha.
-
-</form>
-
-
+  <div class="form">   
+        <form class="login-form" method="post" action="inicio.php" name="signup-form">
+        <input type="text" name="username" placeholder="Usuário" pattern="[a-zA-Z0-9]+" required />
+        <input type="password"  name="password" placeholder="Senha"required />
+        <button type="submit" name="login" value="login">Entrar</button>
+        <p class="message">Não é registrado? <a href="register.php">Cadastre-se</a></p>
+        <p class="message"> <a href="login.php">Recuperar usuário ou senha.
+        </form>
     </div>
-    </div>
+</div>
 
 </body>
 </html>
