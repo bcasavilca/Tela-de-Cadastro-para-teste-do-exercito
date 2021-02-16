@@ -1,43 +1,44 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
 html,body{
-      height: 100%;
-}
-
-
-p{
-      font-size: 20px;
-      color: yellow;
-}
-.login-page {
   background-image: url('wp-army.jpg');
-  height: 100%;
-  padding: 8 0 0;
-  margin: auto;
-  background-position: center;
-  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
+  overflow-y: hidden;
+  overflow-x: hidden; 
+}
+p{
+ font-size: 20px;
+ color: yellow;
+}
+.login-page {   
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
 }
 .form {
-
-  display: flex;
-  align-items: center;
-  flex-direction: column; 
-  justify-content: center;
-  width: 100%;
-  min-height: 100%;
-  padding: 20px;
+  position: relative;
+  z-index: 1;
+  background: #9e9a75;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 .form input {
   font-family: "Roboto", sans-serif;
   outline: 0;
   background: #f2f2f2;
   width: 100%;
+  height: 0px;  
   border: 0;
   margin: 0 0 15%;
-  padding: 15%;
+  padding: 10%;
   box-sizing: border-box;
-  font-size: 14px;
+  font-size: 18px;
 }
 .form button {
   font-family: "Roboto", sans-serif;
@@ -48,7 +49,7 @@ p{
   border: 0;
   padding: 15px;
   color: #FFFFFF;
-  font-size: 14px;
+  font-size: 18px;
   -webkit-transition: all 0.3 ease;
   transition: all 0.3 ease;
   cursor: pointer;
@@ -59,7 +60,7 @@ p{
 .form .message {
   margin: 15px 0 0;
   color: white;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
 }
 .form .message a {
@@ -67,6 +68,9 @@ p{
   text-decoration: none;
 }
 
+.form .register-form {
+  display: none;
+}
 .container {
   position: relative;
   z-index: 1;
@@ -100,5 +104,6 @@ p{
 .container .info span .fa {
   color: #EF3B3A;
 }
+
 
 
